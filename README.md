@@ -2,6 +2,13 @@
 
 Live Project [Amazon Clone](https://e-commerce-sitio.web.app).
 
+### Ussing
+
+Context API for manage the state
+LocalStorage to persist the data
+Firebase to serve the app
+Firestore as a DB
+
 ## To run the project
 
 ### `npm start`
