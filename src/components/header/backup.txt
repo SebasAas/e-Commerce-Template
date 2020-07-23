@@ -1,0 +1,36 @@
+<div className="header__nav">
+
+{/* Login / Account */}
+<Link to={!user && "/login"} className="header__link">
+  <div onClick={login} className="header__option">
+    <span className="header__optionLineOne">Hello {user?.email}</span>
+    <span className="header__optionLineTwo">{user ? "Sign Out" : "Sign In"}</span>
+  </div>
+</Link>
+
+{/* Orders */}
+<Link to="/login" className="header__link">
+  <div className="header__option">
+    <span className="header__optionLineOne">Return</span>
+    <span className="header__optionLineTwo">& Orders</span>
+  </div>
+</Link>
+
+{/* Prime */}
+<Link to="/login" className="header__link">
+  <div className="header__option">
+    <span className="header__optionLineOne">Your</span>
+    <span className="header__optionLineTwo">Prime</span>
+  </div>
+</Link>
+
+{/* Cart */}
+<Link to="/checkout" className="header__linkCart">
+  <div className="header__optionCart">
+    {/* Shopping basket icon */}
+    <ShoppingBasketIcon />
+    {/* Number of item in the cart */}
+    <span className="header__optionLineTwo header__cartCount">{cart?.length}</span>
+  </div>
+</Link>
+</div>
