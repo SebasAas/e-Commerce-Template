@@ -2,6 +2,8 @@
 
 Live Project [Amazon Clone](https://e-commerce-sitio.web.app).
 
+Using Bootstrap 4 for ease of design and to make it responsive, third party library for making the rating.
+
 ### Ussing
 
 - Context API for manage the state
