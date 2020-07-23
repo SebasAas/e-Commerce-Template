@@ -15,9 +15,9 @@ export default function NewProduct() {
 
     const newProduct = addNewProduct(productName, productDescription, productPrice, productRating, productImage);
 
-    if (newProduct.status === 200) return console.log('Se ha añadido correctamente un documento');
+    if (newProduct.status === 200) return alert('Se ha añadido correctamente un documento');
 
-    console.log('Se ha producido un error');
+    alert('Se ha producido un error');
   };
 
   // const leerDatos = (e) => {

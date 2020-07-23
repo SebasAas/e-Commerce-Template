@@ -6,7 +6,7 @@ import { db } from '../firebase';
 
 export const addNewProduct = (name, description, price, rating, image) => {
 
-  const idDocument = db.collection('test').doc();
+  const idDocument = db.collection('products').doc();
 
   try {
     idDocument.set({
