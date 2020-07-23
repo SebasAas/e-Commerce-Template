@@ -9,6 +9,12 @@ Live Project [Amazon Clone](https://e-commerce-sitio.web.app).
 - Firebase to serve the app
 - Firestore as a DB
 
+## Considerations
+
+To load new products just navigate to the "/addProduct" url
+
+For the images input you need to copy the url of the image and paste it
+
 ## To run the project
 
 ### `npm start`
